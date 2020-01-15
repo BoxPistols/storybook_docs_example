@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface Props {
-  /** ボタンに表示される文字列 */
+  /** ラベル：ボタンに表示される文字列 */
   label: string;
   /** クリック時のイベントハンドラ */
   onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
@@ -11,7 +11,7 @@ interface Props {
 
 const style: React.CSSProperties = {
   color: "#fff",
-  backgroundColor: "#00e676",
+  backgroundColor: "#1a29b0",
   borderColor: "#00e676",
   border: "1px solid transparent",
   borderRadius: "4px",
